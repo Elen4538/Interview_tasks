@@ -2,7 +2,14 @@ from datetime import datetime
 import datetime
 import json
 import requests
+"""
+program gets information about weather in Moscow
+via API https://openweathermap.org/api:
+- день с миним. разницей "ощущаемой" и фактической температуры ночью
+- макс. продолжительность светового дня с указанием даты
+за 5 дней вперед считая текущую дату
 
+"""
 
 def day_transformate(day):
     val = datetime.datetime.fromtimestamp(int(day))
