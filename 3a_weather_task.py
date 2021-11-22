@@ -16,7 +16,7 @@ def light_day(d1,d2):
     day_length = abs(d2 - d1)
     return day_length
 
-api_key = '1099f40640eb4976ede476bb8d6e39d3'
+api_key = '**************************'
 lon = '37.606667'
 lat = '55.761665'
 
